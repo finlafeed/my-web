@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.anytac {
+    color: white;
+    text-decoration: none;
+}
+
+a .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.A1 {
+    display: block;
+    background-color: rgb(196, 197, 193);
+    border: 1px solid rgb(4, 1, 1) padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.A2 {
+    display: block;
+    background-color: rgb(196, 197, 193);
+    border: 1px solid rgb(4, 1, 1) padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.arti {
+    display: flex;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.myprodduct {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fs-4 {
+    color: rgb(22, 194, 122);
+}
+
+.canabiz {
+    width: 200px;
+    height: 170px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagebaner {
+    width: 1280px;
+    height: 150px;
+    text-align: center;
+}
+
+h3 a:hover {
+    color: darkblue;
+}
+
+.videocanabiz video {
+    width: 1280px;
+    height: 450px;
+    border: solid 1px white;
+}

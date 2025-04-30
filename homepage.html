@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="th">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Green Temple</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <header class="">
+
+
+        <ul class="nav nav-pills>
+            <li class=" nav-item "><a href="homepage.html "class="nav-link ">Home</a> </li>
+            <li class="nav-item "><a href="product-list.php " class="nav-link ">Product List</a></li>
+            <li class="nav-item "><a href="resgister.html " class="nav-link ">Register</a></li>
+            <li class="nav-item "><a href="login.html " class="nav-link ">Login</a></li>
+            <li class="nav-item "><a href="cart.php " class="nav-link ">Cart (<?php echo count($_SESSION['cart'] ?? []); ?>)</a></li>
+
+        </ul>
+    </header>
+
+    
+
+
+
+            <div id="cart "></div>
+            <script src="script.js "></script>
+            <div class="fed ">
+                <div class="container px-4 py-5 " id="custom-cards ">
+                    <h2 class="pb-2 border-bottom ">🙏สวัสดี ยินดีย้อนรับเข้าสู่ร้าน The Green Temple </h2>
+
+                    
+                    <div class="text-bg-dark " style="height: 150px; ">
+                        
+                            <img class=" imagebaner " src="photo/baand.png " alt=" ">
+                        
+                    </div>
+                        <br>
+                        
+                    <div class=" videocanabiz ">
+                        <video controls src="photo/BROLL.mp4 ">
+                                
+                        </video>
+                    </div>
+
+                        <br> 
+                        <br>
+                        <br>
+                    <div>
+                        <h2 class="pb-2 border-bottom ">👽สินค้าแนะนำ</h2>
+                    </div>
+
+
+
+                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ">
+
+                        <div class="col ">
+
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg " style="background-image: url( 'canabiz/photo/sativa.jpg'); ">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 ">
+
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold "> <a class=" anytac " href="product-list.php "> Durban Poison</h3></a>
+                                    <ul class="d-flex list-unstyled mt-auto ">
+                                        <li class="me-auto ">
+                                            <img src="canabiz/photo/Durban Poison.webp " alt="Bootstrap " width="32 " height="32 " class="rounded-circle border border-white ">
+                                        </li>
+                                        <li class="d-flex align-items-center me-3 ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Location "><use xlink:href="# "></use></svg>
+                                            <small>High THC level <br> Energizing <br> Stimulating <br> Increase Focus
+                                    </small>
+                                        </li>
+                                        <li class="d-flex align-items-center ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Duration "><use xlink:href="#calendar3 "></use></svg>
+                                            <small></small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col ">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg " style="background-image: url( 'canabiz/photo/indi.jpg'); ">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 ">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold "> <a  class=" anytac " href="product-list.php ">Sour Diesel</h3></a> 
+                                    <ul class="d-flex list-unstyled mt-auto ">
+                                        <li class="me-auto ">
+                                            <img src="canabiz/photo/Sour Diesel.webp " alt="Bootstrap " width="32 " height="32 " class="rounded-circle border border-white ">
+                                        </li>
+                                        <li class="d-flex align-items-center me-3 ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Location "><use xlink:href="#geo-fill "></use></svg>
+                                            <small>High CBD level <br>Relaxing <br>Increases appetite <br>Better sleep</small>
+                                        </li>
+                                        <li class="d-flex align-items-center ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Duration "><use xlink:href="#calendar3 "></use></svg>
+                                            <small></small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col ">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg " style="background-image: url( 'canabiz/photo/mix.jpg'); ">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 ">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold "> <a class=" anytac " href="product-list.php "> Daddy Purple</h3></a>
+                                    <ul class="d-flex list-unstyled mt-auto ">
+                                        <li class="me-auto ">
+                                            <img src="canabiz/photo/Granddaddy Purple.webp " alt="Bootstrap " width="32 " height="32 " class="rounded-circle border border-white ">
+                                        </li>
+                                        <li class="d-flex align-items-center me-3 ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Location "><use xlink:href="#geo-fill "></use></svg>
+                                            <small></small>
+                                        </li>
+                                        <li class="d-flex align-items-center ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Duration "><use xlink:href="#calendar3 "></use></svg>
+                                            <small>Mix <br>Indica and Sativa effects depending on the traits from their parent strains</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                        <div class="col ">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg " style="background-image: url( 'canabiz/photo/Strawberry\ CoughBG.jpg'); ">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 ">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold "> <a  class="anytac " href=  "product-list.php "> Strawberry Cough</h3></a>
+                                    <ul class="d-flex list-unstyled mt-auto ">
+                                        <li class="me-auto ">
+                                            <img src="canabiz/photo/Strawberry Cough.jpg " alt="Bootstrap " width="32 " height="32 " class="rounded-circle border border-white ">
+                                        </li>
+                                        <li class="d-flex align-items-center me-3 ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Location "><use xlink:href="#geo-fill "></use></svg>
+                                            <small></small>
+                                        </li>
+                                        <li class="d-flex align-items-center ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Duration "><use xlink:href="#calendar3 "></use></svg>
+                                            <small>Mix <br>Indica and Sativa effects depending on the traits from their parent strains</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col ">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg " style="background-image: url( 'canabiz/photo/Purple\ KushBG.jpg'); ">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 ">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold "><a class=" anytac " href="product-list.php ">Purple Kush</h3></a>
+                                    <ul class="d-flex list-unstyled mt-auto ">
+                                        <li class="me-auto ">
+                                            <img src="canabiz/photo/Purple Kush.webp " alt="Bootstrap " width="32 " height="32 " class="rounded-circle border border-white ">
+                                        </li>
+                                        <li class="d-flex align-items-center me-3 ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Location "><use xlink:href="#geo-fill "></use></svg>
+                                            <small></small>
+                                        </li>
+                                        <li class="d-flex align-items-center ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Duration "><use xlink:href="#calendar3 "></use></svg>
+                                            <small>Mix <br>Indica and Sativa effects depending on the traits from their parent strains</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col ">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg " style="background-image: url( 'canabiz/photo/blue-dream-1.jpg'); ">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 ">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold "><a class=" anytac " href="product-list.php ">Blue Dream</h3></a>
+                                    <ul class="d-flex list-unstyled mt-auto ">
+                                        <li class="me-auto ">
+                                            <img src="canabiz/photo/Blue Dream.webp " alt="Bootstrap " width="32 " height="32 " class="rounded-circle border border-white ">
+                                        </li>
+                                        <li class="d-flex align-items-center me-3 ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Location "><use xlink:href="#geo-fill "></use></svg>
+                                            <small></small>
+                                        </li>
+                                        <li class="d-flex align-items-center ">
+                                            <svg class="bi me-2 " width="1em " height="1em " role="img " aria-label="Duration "><use xlink:href="#calendar3 "></use></svg>
+                                            <small>Mix <br>Indica and Sativa effects depending on the traits from their parent strains</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>

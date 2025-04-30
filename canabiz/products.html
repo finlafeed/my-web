@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สินค้า - ร้านค้าของเรา</title>
+    <link rel="stylesheet" href="products.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-4">The Green Temple</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                </ul>
+            </header>
+        </div>
+    </header>
+    <h2 class="myprodduct"> My Products</h2>
+    <!--pro-1 -->
+    <div class="pro-1">
+        <section class="products">
+            <h3>🌿SATIVA</h3>
+            <div class="product">
+                <img src="photo/Durban Poison.webp" alt="สินค้ารายการ 1">
+                <h2>Durban Poison </h2>
+                <p>THC 22% / CBD 1% </p>
+                <p>ราคา/กรัม : 500 บาท</p>
+                <button onclick="addToCart(1, '+ Durban Poison', 500)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Sour Diesel.webp" alt="สินค้ารายการ 2">
+                <h2>Sour Diesel </h2>
+                <p>THC 20% / CBD 1%</p>
+                <p>ราคา/กรัม : 600 บาท</p>
+                <button onclick="addToCart(2, '+ Sour Diesel', 600)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Green Crack.jpg" alt="สินค้ารายการ 2">
+                <h2>Green Crack </h2>
+                <p>THC 17% / CBD 1%</p>
+                <p>ราคา/กรัม : 400 บาท</p>
+                <button onclick="addToCart(2, '+ Green Crack	', 400)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Super Silver Haze.webp" alt="สินค้ารายการ 2">
+                <h2>Super Silver Haze</h2>
+                <p>THC 23% / CBD 1%</p>
+                <p>ราคา/กรัม : 700 บาท</p>
+                <button onclick="addToCart(2, '+ Super Silver Haze', 700)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Jack Herer.jpg" alt="สินค้ารายการ 2">
+                <h2>Jack Herer</h2>
+                <p>THC 24% / CBD 1%</p>
+                <p>ราคา/กรัม : 650 บาท</p>
+                <button onclick="addToCart(2, '+ Jack Herer', 650)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Strawberry Cough.jpg" alt="สินค้ารายการ 2">
+                <h2>Strawberry Cough</h2>
+                <p>THC 22% / CBD 1%</p>
+                <p>ราคา/กรัม : 850 บาท</p>
+                <button onclick="addToCart(2, '+ Strawberry Cough', 850)">เพิ่มในตะกร้า</button>
+            </div>
+
+
+    </div>
+    <!--pro-2 -->
+    </section>
+
+    <div class="pro-2">
+        <section class="products">
+            <h3>🌙 INDICA</h3>
+            <div class="product">
+                <img src="photo/Granddaddy Purple.webp" alt="สินค้ารายการ 1">
+                <h2>Granddaddy Purple</h2>
+                <p>THC 17% / CBD 1%</p>
+                <p>ราคา/กรัม : 450 บาท</p>
+                <button onclick="addToCart(1, '+ Granddaddy Purple', 450)">เพิ่มในตะกร้า</button>
+
+
+            </div>
+
+            <div class="product">
+                <img src="photo/Northern Lights.webp" alt="สินค้ารายการ 2">
+                <h2>Northern Lights </h2>
+                <p>THC 16% / CBD 1%</p>
+                <p>ราคา/กรัม : 300 บาท</p>
+                <button onclick="addToCart(2, '+ Northern Lights', 300)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Bubba Kush.jpg" alt="สินค้ารายการ 2">
+                <h2>Bubba Kush </h2>
+                <p>THC 20% / CBD 1%</p>
+                <p>ราคา/กรัม : 550 บาท</p>
+                <button onclick="addToCart(2, '+ Bubba Kush	', 550)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Afghan Kush.jpg" alt="สินค้ารายการ 2">
+                <h2>Afghan Kush</h2>
+                <p>THC 17% / CBD 1%</p>
+                <p>ราคา/กรัม : 350 บาท</p>
+                <button onclick="addToCart(2, '+ Afghan Kush', 350)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Purple Kush.webp" alt="สินค้ารายการ 2">
+                <h2>Purple Kush </h2>
+                <p>THC 25% / CBD 1%</p>
+                <p>ราคา/กรัม : 800 บาท</p>
+                <button onclick="addToCart(2, '+ Purple Kush', 800)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Ice Cream Cake.jpg" alt="สินค้ารายการ 2">
+                <h2>Ice Cream Cake </h2>
+                <p>THC 25% / CBD 1%</p>
+                <p>ราคา/กรัม : 950 บาท</p>
+                <button onclick="addToCart(2, '+ Ice Cream Cake	', 950)">เพิ่มในตะกร้า</button>
+            </div>
+    </div>
+
+    <!--pro-3 -->
+    </section>
+    <div class="pro-3">
+        <section class="products">
+            <h3>HYBRID </h3>
+            <div class="product">
+                <img src="photo/Girl Scout Cookies.jpg" alt="สินค้ารายการ 1">
+                <h2>Scout Cookies</h2>
+                <p>THC 28% / CBD 1%</p>
+                <p>ราคา/กรัม : 850 บาท</p>
+                <button onclick="addToCart(1, '+ Scout Cookies', 850)">เพิ่มในตะกร้า</button>
+
+
+            </div>
+
+            <div class="product">
+                <img src="photo/Blue Dream.webp" alt="สินค้ารายการ 2">
+                <h2>Blue Dream </h2>
+                <p>THC 24% / CBD 2%</p>
+                <p>ราคา/กรัม : 700 บาท</p>
+                <button onclick="addToCart(2, '+ Blue Dream	', 700)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Pineapple Express.jpg" alt="สินค้ารายการ 2">
+                <h2>Pineapple Express</h2>
+                <p>THC 29% / CBD 1%</p>
+                <p>ราคา/กรัม : 450 บาท</p>
+                <button onclick="addToCart(2, '+ Pineapple Express	', 450)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/White Widow.jpg" alt="สินค้ารายการ 2">
+                <h2>White Widow </h2>
+                <p>THC 22% / CBD 1%</p>
+                <p>ราคา/กรัม : 1,200 บาท</p>
+                <button onclick="addToCart(2, '+ White Widow', 1200)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Wedding Cake.webp" alt="สินค้ารายการ 2">
+                <h2>Wedding Cake</h2>
+                <p>THC 25% / CBD 1%</p>
+                <p>ราคา/กรัม : 500 บาท</p>
+                <button onclick="addToCart(2, '+ Wedding Cake', 500)">เพิ่มในตะกร้า</button>
+            </div>
+
+            <div class="product">
+                <img src="photo/Runtz.jpg" alt="สินค้ารายการ 2">
+                <h2>Runtz</h2>
+                <p>THC 29% / CBD 1%</p>
+                <p>ราคา/กรัม : 1,000 บาท</p>
+                <button onclick="addToCart(2, '+ Runtz', 1000)">เพิ่มในตะกร้า</button>
+            </div>
+
+        </section>
+    </div>
+    <div id="cart"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
